@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quantico&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>NmK</title>
+</head>
+
+<body>
+    <div class="page">
+        <div class="container">
+            <div class="header">
+                <img src="assets/section-main/mini-logo.svg" alt="" class="header__logo">
+                <div class="header__links">
+                    <a class="link" href="#site-1">Skills</a>
+                    <a class="link" href="#site-2">Portfolio</a>
+                    <a class="link" href="">Contact</a>
+                </div>
+            </div>
+            <div class="name"><h1>Anton Guliaev</h1> 
+                <h6>Front-end Developer</h6>
+            </div>
+                <div class="area">
+                    <div class="area__logo"><img src="assets/section-main/big-logo.svg" alt=""></div>
+                    <div class="area__img">
+                        <div class="area__img-1"><img src="assets/section-main/vscode.svg" alt=""></div>
+                        <div class="area__img-2"><img src="assets/section-main/atom.svg" alt=""></div>
+                        <div class="area__img-3"><img src="assets/section-main/blender.svg" alt=""></div>
+                        <div class="area__img-4"><img src="assets/section-main/css.svg" alt=""></div>
+                        <div class="area__img-5"><img src="assets/section-main/Ai.svg" alt=""></div>
+                        <div class="area__img-6"><img src="assets/section-main/figma.svg" alt=""></div>
+                        <div class="area__img-7"><img src="assets/section-main/html.svg" alt=""></div>
+                        <div class="area__img-8"><img src="assets/section-main/js.svg" alt=""></div>
+                        <div class="area__img-9"><img src="assets/section-main/ps.svg" alt=""></div>
+                        <div class="area__img-10"><img src="assets/section-main/github.svg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div id="site-1" class="section-skills">
+        <div class="container">
+            <div class="section-skills__title title">
+                <h1>Skills.</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-3"><div class="section-skills__listname">Web Development</div>
+                    <ul>
+                        <li>Javascript</li>
+                        <li>PHP</li>
+                        <li>ReactJS</li>
+                        <li>JQuery</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <div class="section-skills__listname">Frontend Development</div>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <div class="section-skills__listname">UI\UX Design</div>
+                    <ul>
+                        <li>Illustrator</li>
+                        <li>Figma</li>
+                        <li>Photoshop</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <div class="section-skills__listname">3D-Animation</div>
+                    <ul>
+                        <li>Blender</li>
+                        <li>ZBrush</li>
+                    </ul></div>
+            </div>
+        </div>
+    </div>
+    <div class="section-works">
+        <div class="container">
+            <div id="site-2" class="section-works__title title"><h1>Lastest works.</h1></div>
+            <button type="button" onclick="showAllprojects()" class="btn section-works__button-1 btn-primary">All projects</button>
+            <button type="button" onclick="showWebdesign()" class="btn btn-2 btn-primary">Web design</button>
+            <button type="button" onclick="showOtherprojects() "class="btn btn-3 btn-primary">Other Projects</button>
+            <div class="row">
+                    <div id="card-1" class="card card-1 text-white bg-primary mb-3" >
+                        <img class="card-img-top" src="assets/section-works/NOE.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">NotebookofEbbing</h5>
+                            <p class="card-text">My first site</p>
+                            <a href="https://nmkzzztos.github.io/NOB.github.io/" class="btn btn-dark" target="_blank">Github-link</a>
+                        </div>
+                    </div>
+                    <div id="card-2" class="card text-white bg-primary mb-3" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/section-works/coming-soon.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Название карточки</h5>
+                            <p class="card-text">Some quick example text</p>
+                            <a href="#" class="btn btn-dark">Переход куда-нибудь</a>
+                        </div>
+                    </div>
+                    <div id="card-3" class="card webdesign text-white bg-primary mb-3" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/section-works/coming-soon.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Название карточки</h5>
+                            <p class="card-text">Some quick example text</p>
+                            <a href="#" class="btn btn-dark">Переход куда-нибудь</a>
+                        </div>
+                    </div>
+                    <div id="card-4" class="card text-white bg-primary mb-3" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/section-works/coming-soon.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Название карточки</h5>
+                            <p class="card-text">Some quick example text</p>
+                            <a href="#" class="btn btn-dark">Переход куда-нибудь</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="/main.js"></script>
+</html>
